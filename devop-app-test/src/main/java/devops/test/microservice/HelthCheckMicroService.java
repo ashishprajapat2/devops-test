@@ -10,6 +10,6 @@ public class HelthCheckMicroService {
 
 	@RequestMapping("/")
     public String home() {
-        return "devops test Service started.";
+        return "Devops Test Service started.";
     }
 }
