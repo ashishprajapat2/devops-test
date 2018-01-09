@@ -48,7 +48,7 @@
 					<directory>${project.build.directory}</directory> <include>${project.build.finalName}.jar</include> 
 					</resource> </resources> </configuration> -->
 				<configuration>
-					<imageName>ec2-54-154-184-212.eu-west-1.compute.amazonaws.com/${project.artifactId}</imageName>
+					<imageName>ec2-54-154-184-212.eu-west-1.compute.amazonaws.com/devops-test</imageName>
 					<imageTags>
 						<imageTag>${project.version}</imageTag>
 						<imageTag>latest</imageTag>
