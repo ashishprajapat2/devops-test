@@ -48,7 +48,7 @@
 					<directory>${project.build.directory}</directory> <include>${project.build.finalName}.jar</include> 
 					</resource> </resources> </configuration> -->
 				<configuration>
-					<imageName>127.0.0.1:5000/${project.artifactId}</imageName>
+					<imageName>ec2-54-154-184-212.eu-west-1.compute.amazonaws.com/${project.artifactId}</imageName>
 					<imageTags>
 						<imageTag>${project.version}</imageTag>
 						<imageTag>latest</imageTag>
