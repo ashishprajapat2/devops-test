@@ -55,7 +55,7 @@
 					</imageTags>
 					<dockerDirectory>${basedir}/src/main/docker</dockerDirectory>
 					<serverId>docker-hub</serverId>
-					<registryUrl>http://127.0.0.1:5000</registryUrl>
+					<registryUrl>https://ashish:root123@ec2-54-154-184-212.eu-west-1.compute.amazonaws.com</registryUrl>
 					<resources>
 						<resource>
 							<targetPath>/</targetPath>
