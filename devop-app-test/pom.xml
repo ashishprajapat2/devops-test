@@ -50,8 +50,7 @@
 				<configuration>
 					<imageName>ec2-54-154-184-212.eu-west-1.compute.amazonaws.com/devops-test</imageName>
 					<imageTags>
-						<imageTag>${project.version}</imageTag>
-						<imageTag>latest</imageTag>
+						<imageTag>devops-test</imageTag>
 					</imageTags>
 					<dockerDirectory>${basedir}/src/main/docker</dockerDirectory>
 					<serverId>docker-hub</serverId>
